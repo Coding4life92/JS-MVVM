@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 4rem;
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+.table.striped tbody tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.table.shadow {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+}
+
+.table th {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.table tbody tr td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input {
+  margin-right: 8px;
+  padding: .7rem;
+}
+
+.btn {
+  padding: .8rem 1rem;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+select {
+  margin-right: 10px;
+  width: 100px;
+  padding: .7rem .5rem;
+}
